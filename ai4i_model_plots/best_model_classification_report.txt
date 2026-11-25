@@ -1,0 +1,16 @@
+Best model: Random Forest
+Selection: highest failure F1-score, then recall, then precision.
+
+Confusion matrix (actual rows, predicted columns; order [0, 1]):
+[[1924    8]
+ [  18   50]]
+
+                        precision    recall  f1-score   support
+
+No machine failure (0)       0.99      1.00      0.99      1932
+   Machine failure (1)       0.86      0.74      0.79        68
+
+              accuracy                           0.99      2000
+             macro avg       0.93      0.87      0.89      2000
+          weighted avg       0.99      0.99      0.99      2000
+

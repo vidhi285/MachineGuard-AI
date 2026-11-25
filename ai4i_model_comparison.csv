@@ -1,0 +1,4 @@
+Model,Accuracy,Failure_Precision,Failure_Recall,Failure_F1,Test_Rows,Test_Failure_Count,Test_NonFailure_Count,True_Negatives,False_Positives,False_Negatives,True_Positives
+Random Forest,0.987,0.8620689655172413,0.7352941176470589,0.7936507936507936,2000,68,1932,1924,8,18,50
+Decision Tree,0.98,0.7258064516129032,0.6617647058823529,0.6923076923076923,2000,68,1932,1915,17,23,45
+Logistic Regression,0.86,0.18072289156626506,0.8823529411764706,0.3,2000,68,1932,1660,272,8,60

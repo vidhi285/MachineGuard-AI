@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+.vscode/
+
+env
+.env
+.env.*
+!.env.example
+
+*.log
+
+# Large datasets and generated training splits
+compressor_engineered.csv
+MetroPT3(AirCompressor).csv
+ai4i_engineered.csv
+ai4i_X_train.csv
+ai4i_X_test.csv
+ai4i_y_train.csv
+ai4i_y_test.csv
+X_train.csv
+X_test.csv
+y_train.csv
+y_test.csv
+
